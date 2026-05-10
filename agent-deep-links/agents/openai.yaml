@@ -5,4 +5,4 @@ interface:
   # Personal note: also useful for Windsurf and Zed editor links
   fallback_behavior: "warn"  # changed from silent fail to warn so I can see when a link isn't supported
   # Personal note: log fallback warnings to console so they're visible during testing
-  log_level: "debug"  # bumped from info to debug while I'm learning how deep links work
+  log_level: "info"  # reverted from debug to info — debug was too noisy in practice
